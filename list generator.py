@@ -1,0 +1,11 @@
+print("Welcome, my friend! We will be building a number list generator. To do so, you shall choose any starting and ending number, as well as an increment. See what comes out!")
+print()
+h = int(input("Give any number to start with ->"))
+k = int(input("Now, give an ending number ->"))
+j = int(input("Now, give any increment you want ->"))
+print()
+print("Start at:", h)
+print("End before:", k)
+print("Increment between values:", j)
+for i in range (h, k, j):
+  print(i)
